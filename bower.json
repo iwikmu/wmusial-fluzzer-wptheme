@@ -1,0 +1,22 @@
+{
+  "name": "wmusial-fluzzer-wptheme",
+  "version": "0.0.0",
+  "homepage": "https://github.com/iwikmu/wmusial-fluzzer-wptheme",
+  "authors": [
+    "Wiktor Musiał <wikoxer@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation-sass": "~5.5.2"
+  }
+}
