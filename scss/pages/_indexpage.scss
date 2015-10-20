@@ -18,11 +18,14 @@
 
   .content {
     margin-top: rem-calc(40);
+    margin-left: rem-calc(30);
+    margin-right: rem-calc(30);
   }
 
   .news-grid {
     margin-left: rem-calc(20);
     margin-right: rem-calc(20);
+    margin-bottom: rem-calc(90);
   }
 
   .news-panel {
@@ -72,6 +75,63 @@
       &:hover {
         color: $primary-color;
       }
+    }
+  }
+
+  .news-continue {
+    padding-left: rem-calc(10);
+    font-weight: bold;
+    a {
+      color: #E93C33;
+    }
+  }
+
+  .footer {
+    @include panel();
+    height: 270px;
+    width: 100%;
+    background-color: $oil;
+    margin-bottom: 0;
+
+    h1 {
+      color: $white;
+    }
+  }
+
+
+  .brand-name {
+    color: white !important;
+    opacity: 0.8 !important;
+  }
+
+  .brand-desc {
+    color: white !important;
+    opacity: 0.8 !important;
+  }
+
+  .social-icons {
+    padding-top: rem-calc(33);
+    list-style-type: none;
+    text-align: center;
+
+    li {
+      display: inline-block;
+      margin-right: rem-calc(12);
+    }
+
+    .fa-facebook {
+      color: white !important;
+      opacity: 0.8 !important;
+    }
+
+    .fa-twitter {
+      color: white !important;
+      opacity: 0.8 !important;
+    }
+
+    .fa-youtube {
+      color: white !important;
+      opacity: 0.8 !important;
     }
   }
 
