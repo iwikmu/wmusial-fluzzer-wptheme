@@ -1,2 +1,10 @@
 {
+    "name": "wmusial/fluzzer",
+    "authors": [
+        {
+            "name": "Wiktor Musiał",
+            "email": "wmusial@protonmail.ch"
+        }
+    ],
+    "require": {}
 }
